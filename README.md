@@ -23,27 +23,20 @@ Make sure you have the following installed on your system:
 
 ### Installation
 
-1. Clone the repository
-
-    ```sh
-    git clone https://github.com/yourusername/chatpdf.git
-    cd chatpdf
-    ```
-
-2. Create and activate a virtual environment
+1. Create and activate a virtual environment
 
     ```sh
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. Install the required packages
+2. Install the required packages
 
     ```sh
     pip install -r requirements.txt
     ```
 
-4. Set your Google Gemini API key
+3. Set your Google Gemini API key
 
     Create a `.env` file in the root directory of the project and add your Google Gemini API key:
 

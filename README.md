@@ -27,7 +27,7 @@ Make sure you have the following installed on your system:
 
     ```sh
     python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source venv\Scripts\activate
     ```
 
 2. Install the required packages

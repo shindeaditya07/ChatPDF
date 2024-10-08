@@ -27,7 +27,7 @@ Make sure you have the following installed on your system:
 
     ```sh
     python -m venv venv
-    source venv\Scripts\activate
+    venv\Scripts\activate
     ```
 
 2. Install the required packages
@@ -56,30 +56,6 @@ Make sure you have the following installed on your system:
 
 3. Upload a PDF document and start asking questions!
 
-## Project Structure
-
-- `app.py` - The main application file
-- `requirements.txt` - List of required Python packages
-- `templates/` - Directory for HTML templates
-- `static/` - Directory for static files (CSS, JS, images)
-- `utils/` - Utility functions for processing PDFs and interacting with the Google Gemini API
-
-## Contributing
-
-We welcome contributions to the project! Here are some ways you can help:
-
-- Report bugs
-- Suggest features
-- Submit pull requests
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature-branch`)
-6. Open a pull request
 
 ## Acknowledgments
 
